@@ -1,8 +1,14 @@
-# Various IDEs and Editors
-.vscode/
-.idea/
-**/*~
+# dfx temporary files
+.dfx/
 
-# Mac OSX temporary files
-.DS_Store
-**/.DS_Store
+# generated files
+src/declarations/
+
+# Webostorm files
+.idea
+interface/.idea
+
+node_modules
+interface/node_modules
+
+interface/build
